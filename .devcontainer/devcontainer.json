@@ -1,6 +1,6 @@
 {
   "name": "ga2-f6c835",
-  "image": "mcr.microsoft.com/devcontainers/python:1",  // Correct base image
+  "image": "ghcr.io/devcontainers/features/python:1",  // Correct base image
   "features": {},
   "customizations": {
     "vscode": {
@@ -10,5 +10,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install fastapi uvicorn[standard]"
+  "postCreateCommand": "uv pip install fastapi uvicorn[standard]"
 }
