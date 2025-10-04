@@ -1,6 +1,7 @@
 {
   "name": "ga2-f6c835",
-  "image": "ghcr.io/devcontainers/features/python:1",
+  "image": "mcr.microsoft.com/devcontainers/python:1",  // Correct base image
+  "features": {},
   "customizations": {
     "vscode": {
       "extensions": [
